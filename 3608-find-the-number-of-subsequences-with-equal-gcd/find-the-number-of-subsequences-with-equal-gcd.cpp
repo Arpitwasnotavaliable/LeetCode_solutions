@@ -2,33 +2,44 @@ class Solution {
 public:
     int subsequencePairCount(vector<int>& nums) {
         const int MOD = 1e9 + 7;
-        int maxVal = 200;
-        
-        vector<vector<long long>> dp(maxVal + 1, vector<long long>(maxVal + 1, 0));
-        dp[0][0] = 1;
-        
+        const int V = 200;
+        const int N = V + 1;
+
+        vector<long long> dp(N * N, 0), ndp(N * N, 0);
+        dp[0] = 1;
+
+        vector<int> gcdTable(N);
+
         for (int val : nums) {
-            vector<vector<long long>> ndp = dp; 
-            for (int g1 = 0; g1 <= maxVal; g1++) {
-                for (int g2 = 0; g2 <= maxVal; g2++) {
-                    long long ways = dp[g1][g2];
-                    if (ways == 0) continue;
-                    
-                    
-                    int ng1 = (g1 == 0) ? val : __gcd(g1, val);
-                    ndp[ng1][g2] = (ndp[ng1][g2] + ways) % MOD;
-                    
-                   
-                    int ng2 = (g2 == 0) ? val : __gcd(g2, val);
-                    ndp[g1][ng2] = (ndp[g1][ng2] + ways) % MOD;
+            gcdTable[0] = val;
+            for (int g = 1; g <= V; g++) gcdTable[g] = __gcd(g, val);
+
+            ndp = dp;
+
+            for (int g1 = 0; g1 <= V; g1++) {
+                const long long* row = &dp[g1 * N];
+                int ng1 = gcdTable[g1];
+                long long* ndpRow1 = &ndp[ng1 * N];
+                for (int g2 = 0; g2 <= V; g2++) {
+                    long long ways = row[g2];
+                    if (!ways) continue;
+
+                    ndpRow1[g2] += ways;
+                    if (ndpRow1[g2] >= MOD) ndpRow1[g2] -= MOD;
+
+                    int ng2 = gcdTable[g2];
+                    long long& cell = ndp[g1 * N + ng2];
+                    cell += ways;
+                    if (cell >= MOD) cell -= MOD;
                 }
             }
-            dp = move(ndp);
+
+            swap(dp, ndp);
         }
-        
+
         long long ans = 0;
-        for (int g = 1; g <= maxVal; g++) {
-            ans = (ans + dp[g][g]) % MOD;
+        for (int g = 1; g <= V; g++) {
+            ans = (ans + dp[g * N + g]) % MOD;
         }
         return (int)ans;
     }
