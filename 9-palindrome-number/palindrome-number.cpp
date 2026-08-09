@@ -1,3 +1,21 @@
+// class Solution {
+// public:
+//     bool isPalindrome(int x) {
+//         if(x<0){
+//             return false;
+//         }
+//         else{
+//         int original=x;
+//         long long reversed=0;
+//         while(x!=0){
+//             int digit=x%10;
+//             reversed=reversed*10+digit;
+//             x=x/10;
+//         }
+//            return original==reversed;
+//     }}
+// };
+
 class Solution {
 public:
     bool isPalindrome(int x) {
@@ -5,13 +23,14 @@ public:
             return false;
         }
         else{
-        int original=x;
-        long long reversed=0;
-        while(x!=0){
-            int digit=x%10;
-            reversed=reversed*10+digit;
-            x=x/10;
+            int original = x;
+            long long rev=0;
+            while(x!=0){
+                int digit=x%10;
+                rev=rev*10+digit;
+                x=x/10;
+            }
+            return original==rev;
         }
-           return original==reversed;
-    }}
+    }
 };
