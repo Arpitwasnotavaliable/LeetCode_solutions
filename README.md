@@ -29,6 +29,7 @@
 ## Array
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/Arpitwasnotavaliable/LeetCode_solutions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/Arpitwasnotavaliable/LeetCode_solutions/tree/master/0042-trapping-rain-water) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Arpitwasnotavaliable/LeetCode_solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 ## Dynamic Programming
@@ -44,4 +45,8 @@
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Arpitwasnotavaliable/LeetCode_solutions/tree/master/0042-trapping-rain-water) |
+## Binary Search
+|  |
+| ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/Arpitwasnotavaliable/LeetCode_solutions/tree/master/0033-search-in-rotated-sorted-array) |
 <!---LeetCode Topics End-->
