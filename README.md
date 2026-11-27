@@ -4,6 +4,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0645-set-mismatch](https://github.com/Arpitwasnotavaliable/LeetCode_solutions/tree/master/0645-set-mismatch) |
 | [1096-brace-expansion-ii](https://github.com/Arpitwasnotavaliable/LeetCode_solutions/tree/master/1096-brace-expansion-ii) |
 | [1657-determine-if-two-strings-are-close](https://github.com/Arpitwasnotavaliable/LeetCode_solutions/tree/master/1657-determine-if-two-strings-are-close) |
 ## String
@@ -27,6 +28,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0645-set-mismatch](https://github.com/Arpitwasnotavaliable/LeetCode_solutions/tree/master/0645-set-mismatch) |
 | [1096-brace-expansion-ii](https://github.com/Arpitwasnotavaliable/LeetCode_solutions/tree/master/1096-brace-expansion-ii) |
 | [1657-determine-if-two-strings-are-close](https://github.com/Arpitwasnotavaliable/LeetCode_solutions/tree/master/1657-determine-if-two-strings-are-close) |
 ## Array
@@ -37,6 +39,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Arpitwasnotavaliable/LeetCode_solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/Arpitwasnotavaliable/LeetCode_solutions/tree/master/0152-maximum-product-subarray) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Arpitwasnotavaliable/LeetCode_solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0645-set-mismatch](https://github.com/Arpitwasnotavaliable/LeetCode_solutions/tree/master/0645-set-mismatch) |
 | [2022-convert-1d-array-into-2d-array](https://github.com/Arpitwasnotavaliable/LeetCode_solutions/tree/master/2022-convert-1d-array-into-2d-array) |
 ## Dynamic Programming
 |  |
@@ -70,4 +73,8 @@
 |  |
 | ------- |
 | [1657-determine-if-two-strings-are-close](https://github.com/Arpitwasnotavaliable/LeetCode_solutions/tree/master/1657-determine-if-two-strings-are-close) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0645-set-mismatch](https://github.com/Arpitwasnotavaliable/LeetCode_solutions/tree/master/0645-set-mismatch) |
 <!---LeetCode Topics End-->
