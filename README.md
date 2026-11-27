@@ -5,10 +5,12 @@
 |  |
 | ------- |
 | [1096-brace-expansion-ii](https://github.com/Arpitwasnotavaliable/LeetCode_solutions/tree/master/1096-brace-expansion-ii) |
+| [1657-determine-if-two-strings-are-close](https://github.com/Arpitwasnotavaliable/LeetCode_solutions/tree/master/1657-determine-if-two-strings-are-close) |
 ## String
 |  |
 | ------- |
 | [1096-brace-expansion-ii](https://github.com/Arpitwasnotavaliable/LeetCode_solutions/tree/master/1096-brace-expansion-ii) |
+| [1657-determine-if-two-strings-are-close](https://github.com/Arpitwasnotavaliable/LeetCode_solutions/tree/master/1657-determine-if-two-strings-are-close) |
 ## Backtracking
 |  |
 | ------- |
@@ -26,6 +28,7 @@
 |  |
 | ------- |
 | [1096-brace-expansion-ii](https://github.com/Arpitwasnotavaliable/LeetCode_solutions/tree/master/1096-brace-expansion-ii) |
+| [1657-determine-if-two-strings-are-close](https://github.com/Arpitwasnotavaliable/LeetCode_solutions/tree/master/1657-determine-if-two-strings-are-close) |
 ## Array
 |  |
 | ------- |
@@ -60,4 +63,8 @@
 |  |
 | ------- |
 | [2022-convert-1d-array-into-2d-array](https://github.com/Arpitwasnotavaliable/LeetCode_solutions/tree/master/2022-convert-1d-array-into-2d-array) |
+## Counting
+|  |
+| ------- |
+| [1657-determine-if-two-strings-are-close](https://github.com/Arpitwasnotavaliable/LeetCode_solutions/tree/master/1657-determine-if-two-strings-are-close) |
 <!---LeetCode Topics End-->
