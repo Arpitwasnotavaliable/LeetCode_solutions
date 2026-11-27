@@ -34,6 +34,7 @@
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Arpitwasnotavaliable/LeetCode_solutions/tree/master/0011-container-with-most-water) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Arpitwasnotavaliable/LeetCode_solutions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/Arpitwasnotavaliable/LeetCode_solutions/tree/master/0042-trapping-rain-water) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Arpitwasnotavaliable/LeetCode_solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -50,6 +51,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Arpitwasnotavaliable/LeetCode_solutions/tree/master/0011-container-with-most-water) |
 | [0042-trapping-rain-water](https://github.com/Arpitwasnotavaliable/LeetCode_solutions/tree/master/0042-trapping-rain-water) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Arpitwasnotavaliable/LeetCode_solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 ## Monotonic Stack
@@ -77,4 +79,8 @@
 |  |
 | ------- |
 | [0645-set-mismatch](https://github.com/Arpitwasnotavaliable/LeetCode_solutions/tree/master/0645-set-mismatch) |
+## Greedy
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/Arpitwasnotavaliable/LeetCode_solutions/tree/master/0011-container-with-most-water) |
 <!---LeetCode Topics End-->
